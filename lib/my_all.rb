@@ -7,4 +7,5 @@ def my_all?(collection)
     block_returns << yield(collection[i])
     i += 1
   end
+  block_returns
 end
